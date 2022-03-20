@@ -23,4 +23,4 @@ def escape(x,y,cnt):
     else:
         return escape(x,y+1,cnt+1)
 
-print("result:", escape(0, 0, 1))
+print("result: ", escape(0, 0, 1))
