@@ -24,7 +24,7 @@ def solution(p):
     v = p[idx:]
     # print("u:", u, "\t\t|v:", v)
 
-    if u.index(')') == 0: # u의 첫번째 요소가 '(' 으로 [올바른 괄호 문자열]이 아닌 경우
+    if u.index(')') == 0: # u의 첫번째 요소가 ')' 으로 [올바른 괄호 문자열]이 아닌 경우
         # 문제의 4.의 과정을 해야함
         answer = '(' + solution(v) + ')'
         u_list = list(u)
